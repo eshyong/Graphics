@@ -1,0 +1,16 @@
+<html>
+  <head>
+  <script type="application/javascript">
+    function draw() {
+      let canvas = document.getElementById('canvas');
+      let ctx = canvas.getContext('2d');
+      ctx.fillStyle = 'red';    
+      ctx.fillRect(10, 10, 50, 50);
+    }
+  </script>
+  </head>
+  <body onload="draw()">
+    <canvas id="canvas">
+    </canvas>
+  </body>
+</html>
